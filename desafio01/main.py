@@ -34,7 +34,7 @@ while True:
                 saque += 1
                 extrato.append(f"saq. efet. R$ {valor_saque:.2f}")
         else:
-             print("Excedeu a quantidade diária de saques.")
+            print("Excedeu a quantidade diária de saques.")
     elif option == 'e':
         print("EXTRATO\n")
         for line in extrato:
