@@ -36,7 +36,8 @@ while True:
         else:
             print("Excedeu a quantidade diária de saques.")
     elif option == 'e':
-        print("EXTRATO\n")
+        print("EXTRATO".center(20, "="))
+        print("Sem movimentação." if not extrato else "")
         for line in extrato:
             print(line)
         print(f"\nSaldo atual = R${saldo_em_conta:.2f}")
