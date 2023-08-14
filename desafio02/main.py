@@ -131,7 +131,7 @@ def main():
                 extrato=extrato,
                 limite=limite,
                 numero_saques=numero_saques,
-                limite_saques=LIMITE_SAQUES,
+                limite_saques=SAQUES_DIARIOS,
             )
 
         elif opcao == "e":
